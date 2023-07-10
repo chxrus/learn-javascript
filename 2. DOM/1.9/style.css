@@ -1,0 +1,33 @@
+
+#example {
+  width: 300px;
+  height: 200px;
+  border: 25px solid #E8C48F;
+  padding: 20px;
+  overflow: auto;
+}
+
+#field {
+  width: 200px;
+  border: 10px groove black;
+  background-color: #00FF00;
+  position: relative;
+}
+
+#ball {
+  position: absolute;
+}
+
+.output {
+  display: flex;
+}
+
+.output p {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: blueviolet;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: black;
+}
