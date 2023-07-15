@@ -1,7 +1,9 @@
-let list = document.querySelector('ul');
+'use strict';
 
-console.log(list.textContent);
+const lis = document.querySelectorAll('li');
 
-let listChildren = document.querySelectorAll('ul li');
-console.log(listChildren.length);
-
+for (let li of lis) {
+  const title = li.childNodes[0].data.trim();
+  const countLiChildren = li.querySelectorAll('li').length;
+  alert(`${title}: ${countLiChildren}`);
+}
