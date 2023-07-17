@@ -1,3 +1,15 @@
+// #1 
+
+/*
+function clear(elem) {
+  elem.innerHTML = '';
+}
+
+clear(elem);
+*/
+
+// #5
+
 /*
 function createTree(container, data) {
     const ul = document.createElement('ul');
@@ -45,17 +57,13 @@ function createTree(container, data) {
 // let colors = ['red', 'green', 'purple', 'blue', 'cyan', 'white', 'black', 'gray', 'yellow', 'orange', 'red', 'green', 'purple']
 
 function showUlChildren(ul) {
-    console.log(ul);
-
-    if (!ul.childElementCount) return;
-
-    // ul.firstChild.data += ` [${ul.childElementCount}]`;
-    ul.style.backgroundColor = colors.pop();
-
-    for (let item of ul.children) {
-        showUlChildren(item);
-    }
-}
+    ul.querySelectorAll('li').forEach(el => {
+      const childrenCount = el.querySelectorAll('li').length;
+      if (childrenCount) {
+        el.firstChild.data += ` [${childrenCount}]`;
+      }
+    });
+  }
 
 
 
