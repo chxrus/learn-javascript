@@ -1,0 +1,23 @@
+.eee .bbb {
+	color: red;
+}
+
+.eee h2 {
+	color: green;
+}
+
+.eee h2.bbb {
+	color: blue;
+}
+
+.eee h3.bbb {
+	color: yellowgreen;
+}
+
+.eee p.bbb {
+	color: orange;
+}
+
+.eee .bbb .kkk {
+	color: coral;
+}
