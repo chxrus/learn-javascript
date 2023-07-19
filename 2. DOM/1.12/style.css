@@ -1,0 +1,155 @@
+/* body {
+  height: 2000px;
+}
+
+#field {
+  width: 200px;
+  height: 1250px;
+  border: 10px solid black;
+  background-color: #00FF00;
+  overflow: hidden;
+}
+
+#ball {
+  transition: all 1s;
+} */
+
+/*
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-top: 400px;
+  font-family: Arial;
+  line-height: 1.75;
+  font-size: 18px;
+}
+
+.dropdown {
+  flex-direction: column;
+  display: flex;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 16px #000;
+}
+
+.dropdown-title {
+  user-select: none;
+  cursor: pointer;
+}
+
+.dropdown-title-closed::before {
+  content: '▶ ';
+  color: #009f;
+}
+
+.dropdown-title-opened::before {
+  content: '▼ ';
+  color: #090f;
+}
+
+.dropdown-list {
+  list-style-type: none;
+  padding-left: 25px;
+}
+*/
+
+/*
+body {
+  margin: 10px auto;
+  width: 470px;
+}
+
+h3 {
+  margin: 0;
+  padding-bottom: .3em;
+  font-size: 1.1em;
+}
+
+p {
+  margin: 0;
+  padding: 0 0 .5em;
+}
+
+.pane {
+  position: relative;
+  background: #edf5e1;
+  padding: 10px 20px 10px;
+  border-top: solid 2px #c4df9b;
+}
+
+.remove-button {
+  position: absolute;
+  font-size: 110%;
+  color: darkred;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 16px #000;
+  gap: 15px;
+
+}
+
+.carousel .feed {
+  scroll-behavior: smooth;
+  max-width: 390px;
+  overflow: hidden;
+
+}
+
+.carousel ul {
+  display: flex;
+  list-style-type: none;
+  transition: all 1s ease-in;
+
+}
+
+.carousel-button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  box-shadow: 0px 0px 16px #000f;
+  cursor: pointer;
+}
+
+.carousel-button:hover {
+  box-shadow: 0px 0px 16px #09ef;
+}
