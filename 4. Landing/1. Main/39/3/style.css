@@ -1,0 +1,12 @@
+#block h1, #block h2, #block h3 {
+  text-align: center;
+}
+
+#block h2 {
+  color: blue;
+}
+
+#block h3 {
+  font-size: 16px;
+  color: red;
+}
