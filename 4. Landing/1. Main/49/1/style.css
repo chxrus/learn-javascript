@@ -1,0 +1,7 @@
+h2:first-of-type {
+  color: blue;
+}
+
+p:last-of-type {
+  color: red;
+}

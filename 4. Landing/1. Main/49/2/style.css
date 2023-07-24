@@ -1,0 +1,7 @@
+h2:nth-of-type(n + 1) {
+  color: blue;
+}
+
+p:nth-last-of-type(2n) {
+  color: red;
+}
