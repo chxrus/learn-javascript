@@ -1,0 +1,27 @@
+[title] {
+  color: yellowgreen;
+}
+
+p[title] {
+  color: yellowgreen;
+}
+
+p[title='Привет'] {
+  color: yellowgreen;
+}
+
+a[href^='https//'] {
+  color: yellowgreen;
+}
+
+a[href$='.html'] {
+  color: yellowgreen;
+}
+
+p[title*='Привет'] {
+  color: yellowgreen;
+}
+
+p[class^='top-'] {
+  color: yellowgreen;
+}
