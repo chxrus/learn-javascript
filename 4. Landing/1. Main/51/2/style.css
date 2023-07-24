@@ -1,0 +1,11 @@
+.block {
+  width: 300px;
+  height: 200px;
+  background-color: greenyellow;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
