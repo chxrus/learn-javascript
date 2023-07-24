@@ -1,0 +1,21 @@
+.block {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.block-1 {
+  border: 8px solid blue;
+}
+
+.block-2 {
+  border: 8px dotted red;
+}
+
+.block-3 {
+  border: 8px dashed orange;
+}
+
+.block-4 {
+  border: 8px double blue;
+}
