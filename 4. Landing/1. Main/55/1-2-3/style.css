@@ -1,0 +1,20 @@
+.block {
+  width: 150px;
+  height: 150px;
+  margin: 10px auto;
+}
+
+.block-1 {
+  border-radius: 16px;
+  border: 1px solid green;
+}
+
+.block-2 {
+  border-radius: 16px;
+  background-color: yellowgreen;
+}
+
+.block-3 {
+  border-radius: 50%;
+  border: 1px solid green;
+}
