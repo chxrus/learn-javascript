@@ -1,0 +1,7 @@
+.block {
+  width: 150px;
+  height: 150px;
+  margin: auto auto;
+  border: 2px solid green;
+  border-radius: 50%;
+}
