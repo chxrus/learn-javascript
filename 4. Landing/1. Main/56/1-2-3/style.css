@@ -1,0 +1,18 @@
+.block {
+  width: 150px;
+  height: 150px;
+  margin: 10px auto;
+  border: 2px solid greenyellow;
+}
+
+.block-1 {
+  border-radius: 4px 8px 16px 32px;
+}
+
+.block-2 {
+  border-radius: 4px 16px;
+}
+
+.block-3 {
+  border-radius: 2px 16px 8px;
+}
