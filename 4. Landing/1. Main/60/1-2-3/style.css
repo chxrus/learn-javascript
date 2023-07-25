@@ -1,0 +1,11 @@
+.list-1 {
+  list-style-type: lower-alpha;
+}
+
+.list-2 {
+  list-style-type: lower-greek;
+}
+
+.list-3 {
+  list-style-type: upper-alpha;
+}
