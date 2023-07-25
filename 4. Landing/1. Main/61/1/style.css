@@ -1,0 +1,10 @@
+  .block-1 {
+  width: 250px;
+  border: 2px dashed blue;
+}
+
+.block-2 {
+  height: 190px;
+  margin: 30px;
+  border: 2px solid orange;
+}

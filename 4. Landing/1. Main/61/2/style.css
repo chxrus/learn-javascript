@@ -1,0 +1,16 @@
+.block-1 {
+  width: 300px;
+  border: 1px dashed blue;
+}
+
+.block-2 {
+  height: 200px;
+  margin: 25px;
+  border: 1px dashed green;
+}
+
+.block-3 {
+  height: 150px;
+  margin: 25px;
+  border: 1px solid red;
+}
