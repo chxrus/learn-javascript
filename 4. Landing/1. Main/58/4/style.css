@@ -1,0 +1,51 @@
+.block {
+  width: 300px;
+  height: 300px;
+  border: 4px solid orangered;
+  margin: 15px auto;
+}
+
+.block-1 {
+  background-image: url('bg.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.block-2 {
+  background-image: url('bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.block-3 {
+  background-image: url('bg.png');
+  background-attachment: fixed;
+  overflow: auto;
+}
+
+.block-4 {
+  border: 8px dashed orangered;
+  padding: 10px;
+
+  background-image: url('bg.png');
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-color: chartreuse;
+}
+
+.block-5 {
+  border: 8px dashed orangered;
+  padding: 10px;
+
+  background-image: url('bg.png');
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-attachment: scroll;
+}
+
+.block-6 {
+  border: 8px dashed orangered;
+  padding: 10px;
+
+  background: url('bg.png') scroll no-repeat center/cover content-box;
+}
