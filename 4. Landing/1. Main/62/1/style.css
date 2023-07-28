@@ -1,0 +1,13 @@
+#parent {
+  width: 150px;
+  border: 1px solid brown;
+}
+
+#child {
+  height: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 70px;
+  border: 1px solid violet;
+}

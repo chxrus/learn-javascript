@@ -1,0 +1,10 @@
+#parent {
+  width: 150px;
+  border: 1px solid salmon;
+}
+
+#child {
+  height: 100px;
+  margin: 10px 20px;
+  border: 1px solid tomato;
+}
